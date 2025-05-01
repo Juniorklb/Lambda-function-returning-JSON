@@ -78,6 +78,6 @@ python
         'headers': {
             'Content-Type': 'application/json'
         }
-    }``
+    }
 - Click “Deploy” to save the changes.
 - Your Lambda function is now ready!
