@@ -1,6 +1,4 @@
-# # 🖥️ AWS Lambda JSON Response API
-
-### ☁️ Built with Amazon Web Services (AWS)
+#  🖥️ AWS Lambda JSON Response API
 
 ![AWS](https://img.shields.io/badge/Built%20with-AWS-orange?style=flat&logo=amazonaws)
 ![Project Status](https://img.shields.io/badge/status-in--progress-yellow)
@@ -49,3 +47,4 @@ def lambda_handler(event, context):
             'Content-Type': 'application/json'
         }
     }
+
