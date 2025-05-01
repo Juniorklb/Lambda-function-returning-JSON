@@ -81,3 +81,39 @@ python
     }
 - Click “Deploy” to save the changes.
 - Your Lambda function is now ready!
+  
+## Step 2: Create an API Gateway (HTTP API)
+
+- Go to: API Gateway Console
+- Choose “HTTP API” (not REST)
+- Click “Build” under HTTP API
+
+#### 🧾 Step-by-Step:
+- Choose **“Add Integration”**
+
+- Select Lambda
+
+- Pick your Lambda function: ``jsonResponseHandler``
+  
+    - Configure Route
+
+    - Method: GET
+
+- Resource path: /hello (or anything you prefer)
+
+    - Configure Stage
+
+- Name: dev (or any environment name)
+
+   - Leave defaults
+
+   - Review & Create
+
+   - Review all settings
+
+    - Click Create
+
+#### Once created:
+- You’ll see your API invoke URL, something like:
+
+``https://abcd1234.execute-api.us-east-1.amazonaws.com/hello``
