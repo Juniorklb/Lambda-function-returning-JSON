@@ -51,6 +51,7 @@ python
 ## Step 1: Create the Lambda Function (via AWS Console)
 #### 🔹 Go to: AWS Lambda Console
 
+![image alt](https://github.com/Juniorklb/Lambda-function-returning-JSON/blob/8592a91963e0de9e7d1b56add8fb39ddeed6c2dd/Images/lambdacreation.PNG)
 - Click **"Create function"**
   
 - Function name: jsonResponseHandler
