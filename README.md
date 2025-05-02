@@ -113,6 +113,8 @@ python
    - Review all settings
 
     - Click Create
+      
+![image alt](https://github.com/Juniorklb/Lambda-function-returning-JSON/blob/fda28dad1aa071bc6ed6f5550f9d5c1f416c89e3/Images/API%20Gateway.PNG)
 
 #### Once created:
 - You’ll see your API invoke URL, something like:
