@@ -117,3 +117,19 @@ python
 - You’ll see your API invoke URL, something like:
 
 ``https://abcd1234.execute-api.us-east-1.amazonaws.com/hello``
+#### 🧪 Test It
+
+**💻 Terminal:**
+
+``curl https://abcd1234.execute-api.us-east-1.amazonaws.com/hello``
+
+**Browser or Postman:**
+
+- Just paste the URL in the browser.
+
+- You should receive a JSON response like:
+
+      {
+      "message": "Hello from Lambda!",
+      "status": "success"
+      }
